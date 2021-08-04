@@ -76,3 +76,5 @@ Tanya = Student('Татьяна', 'Тимошенко', 'жен')
 Tanya.grades = {'Python': 10}
 list_ = [Vadim, Tanya]
 
+
+def average()
