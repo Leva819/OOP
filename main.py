@@ -77,4 +77,18 @@ Tanya.grades = {'Python': 10}
 list_ = [Vadim, Tanya]
 
 
-def average()
+def average_grade_of_students(list_of_students):
+    grades = 0
+    for student in list_of_students:
+        for key, value in student.grades.items():
+            grades += value
+    print(grades / len(list_of_students))
+
+def average_grade_of_lecturers(list_of_lecturers):
+    grades = 0
+    for lecturer in list_of_lecturers:
+        for key, value in lecturer.grades_for_lecturer.items():
+            grades += value
+    print(grades / len(list_of_lecturers))
+
+average_grade_of_lecturers(list_2)
